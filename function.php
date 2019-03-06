@@ -1,22 +1,54 @@
 <?php
 
 /*
- *Обработка данных полученых из формы
+ *Запрос для вывода данных из БД
+ * данные в основном для форм и списков
  */
 
-function DataFromForm($link)
+function DataFromForm($link, $name, $table)
 {
-    $query = "SELECT short_name FROM type_ts_table";
+    $input = mysqli_real_escape_string($link, $name);
+    $input_table = mysqli_real_escape_string($link, $table);
+    $query = "SELECT $input FROM $input_table";
     $result = mysqli_query($link, $query) or die(mysqli_error($link));
-    for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row);
+    for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row){};
     return $data;
 }
 
 
+/*
+ *Авто создание вплывающего списка по параметрам
+ * Имя списка
+ * Имя в массиве $_POST
+ * Имя массива полученого из БД
+ * Ключ поиска по массиву
+ */
+
+function selectForm($name_select, $name_data, $name_array, $name_key_array)
+{
+    $string =
+        '<br>'.$name_select.'<br>
+		 <p><select name='.$name_data.'>';
+    foreach($name_array as $elem)
+    {
+        $param = $elem[$name_key_array];
+        $string .= '<option>'.$param.'</option>';
+
+    }
+    $string .= '</select></p>';
+
+    return $string;
+
+}
+
+/*
+ *Обработка данных полученых из формы, задача записать в главную таблицу БД
+ * индексы по всем основным параметрам.
+ */
 
 function formDataSend($link)
 {
-//    print_r($_POST);
+
     if(!empty($_POST))
     {
     $dataForm = [
@@ -35,18 +67,18 @@ function formDataSend($link)
     ];
 
     $select = [
-      "SELECT id FROM type_ts_table WHERE short_name = '$type_ts'",
-      "SELECT id FROM engine_power_table WHERE short_name = '$engine_power'",
-      "SELECT id FROM city_registration_table WHERE short_name = '$city_registration'",
+      "SELECT id, base_rate FROM type_ts_table WHERE short_name = '$type_ts'",
+      "SELECT id, base_rate FROM engine_power_table WHERE short_name = '$engine_power'",
+      "SELECT id, type1, type2 FROM city_registration_table WHERE short_name = '$city_registration'",
       "SELECT id FROM user_options_table WHERE number_drivers_limited = '$number_drivers'",
-      "SELECT id FROM insurance_period_table WHERE short_name = '$insurance_period'",
-      "SELECT id FROM KBM_table WHERE short_name = '$KBM'",
+      "SELECT id, base_rate FROM insurance_period_table WHERE short_name = '$insurance_period'",
+      "SELECT id, base_rate FROM KBM_table WHERE short_name = '$KBM'",
       "SELECT id FROM age_drivers_table WHERE short_name = '$age_drivers'",
       "SELECT id FROM experience_drivers_table WHERE short_name = '$experience_drivers'",
       "SELECT id FROM user_options_table WHERE foreigner = '$foreigner'",
       "SELECT id FROM user_options_table WHERE legal_form = '$legal_form'",
-      "SELECT id FROM period_use_table WHERE short_name = '$period_use'",
-      "SELECT id FROM user_options_table WHERE violations = '$violations'",
+      "SELECT id, base_rate FROM period_use_table WHERE short_name = '$period_use'",
+      "SELECT id FROM user_options_table WHERE violations = '$violations'"
     ];
 
     foreach ($select as $elem)
@@ -55,6 +87,9 @@ function formDataSend($link)
         $index[] = mysqli_fetch_assoc($result);
     }
 
+ /*
+ *получаем id
+ */
         $type_ts=$index[0]['id'];
         $engine_power=$index[1]['id'];
         $city_registration=$index[2]['id'];
@@ -67,6 +102,9 @@ function formDataSend($link)
         $legal_form=$index[9]['id'];
         $period_use=$index[10]['id'];
         $violations=$index[11]['id'];
+
+
+
 
         if($type_ts == 1 && $legal_form == 'Юр. лицо')
         {
@@ -100,8 +138,26 @@ function formDataSend($link)
     violations='$violations', 
     KPt='$KPt'";
 
-    $result = mysqli_query($link, $query) or die(mysqli_error($link));
+        $index_array = [
+            'type_ts',
+            'engine_power',
+            'city_registration',
+            'number_drivers',
+            'insurance_period',
+            'KBM',
+            'age_drivers',
+            'experience_drivers',
+            'foreigner',
+            'legal_form',
+            'period_use',
+            'violations'
+        ];
 
+        $index_comb = array_combine($index_array, $index);
+        $index_comb['KPt'] = $KPt;
+
+    $result = mysqli_query($link, $query) or die(mysqli_error($link));
+    return $index_comb;
 }
 }
 

@@ -2,10 +2,10 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 'on');
 
-include 'treatment.php';
+require 'function.php';
+$title = 'Калькулятор ОСАГО';
 
-
-    $stringHTML =  '<!DOCTYPE html>
+    $stringHTML = '<!DOCTYPE html>
 	<html lang="ru">
 		<head>
 			<meta charset="utf-8">
@@ -16,116 +16,30 @@ include 'treatment.php';
 		<body>
 			<div id="wrapper">
 				<header>
-						<form action="treatment.php" method="POST">
-		 				<br>Тип ТС и категория (на примере Указа ЦБ):<br>
-		 				<p><select name="type_ts">';
-							foreach($name_type as $elem)
-                            {
-                                $stringHTML .= '<option>$elem</option>';
+						<form action="treatment.php" method="POST">';
 
-                            }
-							$stringHTML .= '</select></p>
-                        <p><input type="submit" class="btn btn-info btn-block" value="Insert"></p>
+						$stringHTML .= selectForm('Тип ТС и категория (на примере Указа ЦБ):', 'type_ts', $name_type, 'short_name');
+						$stringHTML .= selectForm('Мощность двигателя:', 'engine_power', $name_engine_power, 'short_name');
+						$stringHTML .= selectForm('Город регистрации (ТПИ на примере Указа ЦБ):', 'city_registration', $name_city_registration, 'short_name');
+						$stringHTML .= selectForm('Ограничение по количество водителей:', 'number_drivers', $name_number_drivers, 'number_drivers_limited');
+						$stringHTML .= selectForm('Период страховки:', 'insurance_period', $name_insurance_period, 'short_name');
+						$stringHTML .= selectForm('Коэффициент КБМ:', 'KBM', $name_KBM, 'short_name');
+						$stringHTML .= selectForm('Возраст водителя (количество полных лет):', 'age_drivers', $name_age_drivers, 'short_name');
+						$stringHTML .= selectForm('Водительский стаж (количество полных лет):', 'experience_drivers', $name_experience_drivers, 'short_name');
+						$stringHTML .= selectForm('Является ли иностранным агентом:', 'foreigner', $name_foreigner, 'foreigner');
+						$stringHTML .= selectForm('Юр. лицо или физ. лицо:', 'legal_form', $name_legal_form, 'legal_form');
+						$stringHTML .= selectForm('Период использования:', 'period_use', $name_period_use, 'short_name');
+						$stringHTML .= selectForm('Способствовал ли водитель ДТП, участиe ДТП:', 'violations', $name_violations, 'violations');
+
+$stringHTML .=
+                        '<p><input type="submit" class="btn btn-info btn-block" value="Insert"></p>
 	 				</form>
 				</header>
 			</div>
 		</body>
 		<title> '.$title.' </title>
 	</html>';
+
 echo $stringHTML;
-print_r($_POST);
 
-//$stringHTML .=              '<option>Транспортные средства категории В Е</option>
-//							<option>Belarus</option>
-//							<option>Kazakhstan</option>
-//							<option>England</option>
-//						</select></p>
-//
-//						<br>Мощность двигателя:<br>
-//		 				<p><select name="engine_power">
-//							<option>122</option>
-//							<option>150</option>
-//							<option>Kazakhstan</option>
-//							<option>England</option>
-//						</select></p>
-//
-//		 				<br>Город регистрации (ТПИ на примере Указа ЦБ):<br>
-//						<p><select name="city_registration">
-//							<option>Республика Адегея</option>
-//							<option>Belarus</option>
-//							<option>Kazakhstan</option>
-//							<option>England</option>
-//						</select></p>
-//
-//						<br>Ограниченное количество водителей:<br>
-//						<p><select name="number_drivers">
-//							<option>Ограниченое количество лиц допущеных к управлению ТС</option>
-//							<option>Не ограниченое количество лиц допущеных к управлению ТС</option>
-//						</select></p>
-//
-//						<br>Период страховки:<br>
-//						<p><select name="insurance_period">
-//							<option>15 дней</option>
-//							<option>1 год</option>
-//							<option>Kazakhstan</option>
-//							<option>England</option>
-//						</select></p>
-//
-//						<br>Коэффициент КБМ:<br>
-//						<p><select name="KBM">
-//							<option>m</option>
-//							<option>2.3</option>
-//							<option>1.4</option>
-//							<option>1.5</option>
-//						</select></p>
-//
-//						<br>Возраст водителя (количество полных лет):<br>
-//						<p><select name="age_drivers">
-//							<option>Возраст 16-21</option>
-//							<option>22-24</option>
-//							<option>25-29</option>
-//						</select></p>
-//
-//						<br>Водительский стаж (количество полных лет):<br>
-//						<p><select name="experience_drivers">
-//							<option>0</option>
-//							<option>1</option>
-//							<option>2</option>
-//							<option>3-4</option>
-//						</select></p>
-//
-//						<br>Является ли иностранным агентом:<br>
-//						<p><select name="foreigner">
-//							<option>Да</option>
-//							<option>Нет</option>
-//						</select></p>
-//
-//						<br>Юр. лицо или физ. лицо:<br>
-//						<p><select name="legal_form">
-//							<option>Юр. лицо</option>
-//							<option>Физ. лицо</option>
-//						</select></p>
-//
-//						<br>Период использования:<br>
-//						<p><select name="period_use">
-//							<option>3 месяца</option>
-//							<option>4 месяца</option>
-//							<option>5 месяца</option>
-//							<option>6 месяца</option>
-//						</select></p>
-//
-//						<br>Способствовал ли водитель ДТП, участиe ДТП:<br>
-//						<p><select name="violations">
-//							<option>Да</option>
-//							<option>Нет</option>
-//						</select></p>
-//
-		 				<p><input type="submit" class="btn btn-info btn-block" value="Insert"></p>
-	 				</form>
-				</header>
-			</div>
-		</body>
-		<title> '.$title.' </title>
-	</html>';
-//
-//
+
