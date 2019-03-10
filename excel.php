@@ -59,6 +59,5 @@ $oWriter = IOFactory::createWriter($oSpreadsheet_Out, 'Xlsx');
 $oWriter->save($sOutFile);
 //$oWriter->save('php://output');
 
-//print_r($_SESSION['post']['type_ts']);
 
 header('location: out.xlsx');

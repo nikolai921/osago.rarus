@@ -68,3 +68,7 @@
 [2019-03-10 21:39:22] name.ERROR: Bar [] []
 [2019-03-10 21:39:40] name.WARNING: Foo [] []
 [2019-03-10 21:39:40] name.ERROR: Bar [] []
+[2019-03-10 22:16:22] name.WARNING: Foo [] []
+[2019-03-10 22:16:22] name.ERROR: Bar [] []
+[2019-03-10 22:16:29] name.WARNING: Foo [] []
+[2019-03-10 22:16:29] name.ERROR: Bar [] []

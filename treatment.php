@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 'on');
 
 /**
- * Устанавливаем доступы к базе данных:
+ * Устанавливаем доступ к базе данных:
  */
 $host = 'localhost'; //имя хоста, на локальном компьютере это localhost
 $user = 'root'; //имя пользователя, по умолчанию это root
@@ -20,19 +20,14 @@ $link = mysqli_connect($host, $user, $password, $db_name);
 //Устанавливаем кодировку (не обязательно, но поможет избежать проблем):
 mysqli_query($link, "SET NAMES 'utf8'");
 
-
 /**
- *Редирект для скачивания файла
- */
-
-
-
-/**
- *Авто создание вплывающего списка по параметрам
- * Имя списка
- * Имя в массиве $_POST
- * Имя массива полученого из БД
- * Ключ поиска по массиву
+ * Авто создание вплывающего списка по параметрам
+ * @param $name_select - Имя списка
+ * @param $name_data - Имя в массиве $_POST
+ * @param $name_array - Имя массива полученного из БД
+ * @param $name_key_array - Ключ поиска по массиву
+ *
+ * @return string
  */
 
 function selectForm($name_select, $name_data, $name_array, $name_key_array)
@@ -62,6 +57,9 @@ function selectForm($name_select, $name_data, $name_array, $name_key_array)
 
 /**
  * Функция для формирования таблицы результатов
+ * @param $premium
+ *
+ * @return string
  */
 
 function bonus_received($premium)
@@ -100,10 +98,13 @@ function bonus_received($premium)
     return $content;
 }
 
-
 /**
- *Запрос для вывода данных из БД
- * данные в основном для форм и списков
+ * Функция формирует запрос к БД
+ * @param $link
+ * @param $name
+ * @param $table
+ *
+ * @return array
  */
 
 function DataFromForm($link, $name, $table)
@@ -119,10 +120,13 @@ SQL;
     return $data;
 }
 
-
 /**
- *Обработка данных полученых из формы, задача записать в главную таблицу БД
+ * Обработка данных полученных из формы, задача записать в главную таблицу БД
  * индексы по всем основным параметрам.
+ *
+ * @param $link
+ *
+ * @return array|false
  */
 
 function formDataSend($link)
@@ -238,7 +242,7 @@ $index_comb = formDataSend($link);
 
 
 /**
- * Выборка данных для форм из БД
+ * Выборка данных для форм (HTML), из БД
  */
 
 $name_type = DataFromForm($link, 'short_name', 'type_ts_table');
@@ -255,7 +259,7 @@ $name_period_use = DataFromForm($link, 'short_name', 'period_use_table');
 $name_violations = DataFromForm($link, 'violations', 'user_options_table');
 
 /**
- * Основная логика вычисления, формируем показатели стоимости премии округленый до 2 знаков после запятой
+ * Основная логика вычисления, формируем показатели стоимости премии округленный до 2 знаков после запятой
  */
 function premium($index_comb, $link)
 {
