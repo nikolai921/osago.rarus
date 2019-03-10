@@ -1,5 +1,6 @@
 <?php
 
+
 /*
  *Запрос для вывода данных из БД
  * данные в основном для форм и списков
@@ -15,31 +16,6 @@ function DataFromForm($link, $name, $table)
     return $data;
 }
 
-
-/*
- *Авто создание вплывающего списка по параметрам
- * Имя списка
- * Имя в массиве $_POST
- * Имя массива полученого из БД
- * Ключ поиска по массиву
- */
-
-function selectForm($name_select, $name_data, $name_array, $name_key_array)
-{
-    $string =
-        '<br>'.$name_select.'<br>
-		 <p><select name='.$name_data.'>';
-    foreach($name_array as $elem)
-    {
-        $param = $elem[$name_key_array];
-        $string .= '<option>'.$param.'</option>';
-
-    }
-    $string .= '</select></p>';
-
-    return $string;
-
-}
 
 /*
  *Обработка данных полученых из формы, задача записать в главную таблицу БД
@@ -161,4 +137,8 @@ function formDataSend($link)
 }
 }
 
+/*
+ * Отправка данных в БД
+ */
 
+$index_comb = formDataSend($link);
