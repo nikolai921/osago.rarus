@@ -12,16 +12,16 @@ ini_set('display_errors', 'on');
  */
 $host = 'localhost'; //имя хоста, на локальном компьютере это localhost
 $user = 'root'; //имя пользователя, по умолчанию это root
-$password = '1'; //пароль, по умолчанию пустой
+$password = '13579'; //пароль, по умолчанию пустой
 $db_name = 'osago.rarus'; //имя базы данных
 
 $link = mysqli_connect($host, $user, $password, $db_name);
 
 //Устанавливаем кодировку (не обязательно, но поможет избежать проблем):
-mysqli_query($link, "SET NAMES 'utf8'");
+mysqli_set_charset($link, "utf8");
 
 /**
- * Авто создание вплывающего списка по параметрам
+ * Авто создание всплывающего списка по параметрам
  * @param $name_select - Имя списка
  * @param $name_data - Имя в массиве $_POST
  * @param $name_array - Имя массива полученного из БД
@@ -72,25 +72,25 @@ function bonus_received($premium)
 
     if (empty($_POST)) {
         $content .= "<tr>
-				<thead><tr><td>Для рассчета укажите параметры в форме ниже </td></tr></thead>";
+				<thead><tr><td>Для расчета укажите параметры в форме ниже </td></tr></thead>";
     } else {
         $content .= "<tr>
-				<tr><td>Тип ТС и категория</td><td>{$_POST['type_ts']}</td></tr>
+				<tr><td>Тип ТС и категория:</td><td>{$_POST['type_ts']}</td></tr>
 				<tr><td>Мощность двигателя:</td><td>{$_POST['engine_power']}</td></tr>
-				<tr><td>Город регистрации</td><td>{$_POST['city_registration']}</td></tr>
+				<tr><td>Город регистрации:</td><td>{$_POST['city_registration']}</td></tr>
 				<tr><td>Ограничение по количеству водителей:</td><td>{$_POST['number_drivers']}</td></tr>
 				<tr><td>Период страховки:</td><td>{$_POST['insurance_period']}</td></tr>
 				<tr><td>Коэффициент КБМ:</td><td>{$_POST['KBM']}</td></tr>
-				<tr><td>Возраст водителя</td><td>{$_POST['age_drivers']}</td></tr>
-				<tr><td>Водительский стаж</td><td>{$_POST['experience_drivers']}</td></tr>
-				<tr><td>Водитель иностраный агент:</td><td>{$_POST['foreigner']}</td></tr>
+				<tr><td>Возраст водителя:</td><td>{$_POST['age_drivers']}</td></tr>
+				<tr><td>Водительский стаж:</td><td>{$_POST['experience_drivers']}</td></tr>
+				<tr><td>Водитель иностранный агент:</td><td>{$_POST['foreigner']}</td></tr>
 				<tr><td>Юр. лицо или физ. лицо:</td><td>{$_POST['legal_form']}</td></tr>
 				<tr><td>Период использования:</td><td>{$_POST['period_use']}</td></tr>
 				<tr><td>Участие в ДТП:</td><td>{$_POST['violations']}</td></tr>
-				<tr><td>Расчетная премия</td><td> {$premium}</td></tr>
+				<tr><td>Расчетная премия:</td><td> {$premium}</td></tr>
 				<tr><td>Файл .xlsx</td><td><a href='excel.php'>Скачать</a></td></tr>
 				<tr><td>Файл .pdf</td><td><a href='pdf.php'>Скачать</a></td></tr>
-				<tr><td>Обновить расчетные данные</td><td><a href='logout.php'>Обновить</a></td></tr>";
+				<tr><td>Обновить расчетные данные:</td><td><a href='logout.php'>Обновить</a></td></tr>";
     }
 
     $content .= '</table>';
@@ -269,19 +269,19 @@ $name_violations = DataFromForm($link, 'violations', 'user_options_table');
 function premium($index_comb, $link)
 {
     /*
-     * Вводим переменные которые описывают показатели, но невошли в структуру БД
+     * Вводим переменные которые описывают показатели, но не вошли в структуру БД
      */
 
     $entity = 1.8; // коэффициент КО для юр. лиц
     $not_limit_number_drivers = 1.87; // коэффициент КО без ограничений по количеству водителей
-    $limit_number_drivers = 1; // коэффициент КО при ограниченом количестве водителей
+    $limit_number_drivers = 1; // коэффициент КО при ограниченном количестве водителей
     $coeff_violations = 1.5; // коэффициент КН - при наличие нарушений
 
     $foreigner = $index_comb['foreigner']['id'];
     $legal_form = $index_comb['legal_form']['id'];
 
     /*
-     * Вводим переменные которые описывают показатели, но невошли в структуру БД
+     * Вводим переменные которые описывают показатели, но не вошли в структуру БД
      */
     if (!empty($index_comb)) {
 
@@ -424,7 +424,7 @@ function premium($index_comb, $link)
 }
 
 /**
- * вызов функции по рассчету премии
+ * вызов функции по расчету премии
  */
 $premium = premium($index_comb, $link);
 

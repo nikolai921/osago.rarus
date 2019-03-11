@@ -39,7 +39,7 @@ $title = 'Калькулятор ОСАГО';
                             'city_registration', $name_city_registration, 'short_name');
 						$stringHTML .= selectForm('Количество водителей:',
                             'number_drivers', $name_number_drivers, 'number_drivers_limited');
-						$stringHTML .= selectForm('Период страховки (для иносранных агентов):',
+						$stringHTML .= selectForm('Период страховки (для иностранных агентов):',
                             'insurance_period', $name_insurance_period, 'short_name');
 						$stringHTML .= selectForm('Коэффициент КБМ:',
                             'KBM', $name_KBM, 'short_name');
@@ -67,7 +67,7 @@ $title = 'Калькулятор ОСАГО';
 echo $stringHTML;
 
 /*
- * Переносим значение переданых методом POST в SESSION
+ * Переносим значение переданных методом POST в SESSION
  */
 
 $_SESSION['post'] = $_POST;
@@ -96,11 +96,9 @@ $current = implode(', ', $_SESSION['post']);
 
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
-//
-// create a log channel
+
 $log = new Logger('name');
-$log->pushHandler(new StreamHandler(__DIR__ . '/logs/test.txt', Logger::WARNING));
-//
-//// add records to the log
-$log->warning('Foo');
-$log->error('Bar');
+$log->pushHandler(new StreamHandler(__DIR__ . '/logs/test.txt', Logger::INFO));
+
+$log->info($current);
+

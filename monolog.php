@@ -22,8 +22,6 @@ $log->warning('Foo');
 $log->error('Bar');
 //$log->info($current);
 
-$log = new Logger('name');
-$log->pushHandler(new StreamHandler(__DIR__ . '/logs/test.txt', Logger::INFO));
 $log->info('Отправка формы', $current);
 
 
