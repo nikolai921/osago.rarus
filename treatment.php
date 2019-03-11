@@ -260,10 +260,15 @@ $name_violations = DataFromForm($link, 'violations', 'user_options_table');
 
 /**
  * Основная логика вычисления, формируем показатели стоимости премии округленный до 2 знаков после запятой
+ * @param $index_comb
+ * @param $link
+ *
+ * @return string
  */
+
 function premium($index_comb, $link)
 {
-    /**
+    /*
      * Вводим переменные которые описывают показатели, но невошли в структуру БД
      */
 
@@ -275,18 +280,21 @@ function premium($index_comb, $link)
     $foreigner = $index_comb['foreigner']['id'];
     $legal_form = $index_comb['legal_form']['id'];
 
-    /**
+    /*
      * Вводим переменные которые описывают показатели, но невошли в структуру БД
      */
     if (!empty($index_comb)) {
+
         /*
          * Коэффициент ТБ
          */
+
         $TB = $index_comb['type_ts']['base_rate'];
 
         /*
          * Коэффициент КТ
          */
+
         if ($index_comb['type_ts']['id'] !== 10) {
             $KT = $index_comb['city_registration']['type1'];
         } else {
@@ -298,6 +306,7 @@ function premium($index_comb, $link)
         /*
          * Коэффициент КО
          */
+
         if ($index_comb['number_drivers']['id'] == 1) {
             $KO = $limit_number_drivers;
         } elseif ($index_comb['legal_form']['id'] == 2) {
@@ -309,6 +318,7 @@ function premium($index_comb, $link)
         /*
          * Коэффициент КВС
          */
+
         if ($foreigner == 1 && $legal_form == 1) {
 //    иностранец и физ. лицо
             $KBC = 1.7;
@@ -332,11 +342,13 @@ function premium($index_comb, $link)
         /*
          * Коэффициент КМ
          */
+
         $KM = $index_comb['engine_power']['base_rate'];
 
         /*
          * Коэффициент КПр
          */
+
         $number_KPt = $index_comb['KPt'];
 
         $queryKPt = "SELECT base_rate FROM KPt_table WHERE id = '$number_KPt' ";
@@ -349,16 +361,19 @@ function premium($index_comb, $link)
         /*
          * Коэффициент КС
          */
+
         $KC = $index_comb['period_use']['base_rate'];
 
         /*
          * Коэффициент КР
          */
+
         $KP = $index_comb['insurance_period']['base_rate'];
 
         /*
          * Коэффициент КН
          */
+
         if ($index_comb['age_drivers']['id'] == 1) {
             $KH = $coeff_violations;
         } else {
@@ -408,13 +423,11 @@ function premium($index_comb, $link)
     return round($premium, 2) . ' ' . 'p.';
 }
 
-
+/**
+ * вызов функции по рассчету премии
+ */
 $premium = premium($index_comb, $link);
 
-
-
-
-premium($index_comb, $link);
 
 
 

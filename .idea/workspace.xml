@@ -1,93 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bacf2d9c-f770-4c55-ba24-4402c6a2626c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel.php" beforeDir="false" afterPath="$PROJECT_DIR$/excel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logPost.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logPost.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.atoum.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.atoum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_foxitreader.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_foxitreader.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_pdfcreator.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_pdfcreator.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_pdfcreator_nocompressed.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_pdfcreator_nocompressed.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_pdfxchange.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_pdfxchange.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document2_pdfcreator_nocompressed.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document2_pdfcreator_nocompressed.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document3_pdfcreator_nocompressed.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document3_pdfcreator_nocompressed.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/bugs/Issue18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/bugs/Issue18.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/bugs/Issue33.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/bugs/Issue33.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/bugs/Issue95_ANSI.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/bugs/Issue95_ANSI.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Document.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Document.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementArray.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementBoolean.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementBoolean.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementDate.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementDate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementHexa.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementHexa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementMissing.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementMissing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementName.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementName.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementNull.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementNull.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementNumeric.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementNumeric.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementString.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementString.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementStruct.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementStruct.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementXRef.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementXRef.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/ISOLatin1Encoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/ISOLatin1Encoding.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/ISOLatin9Encoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/ISOLatin9Encoding.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/MacRomanEncoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/MacRomanEncoding.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/StandardEncoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/StandardEncoding.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/WinAnsiEncoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/WinAnsiEncoding.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontCIDFontType0.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontCIDFontType0.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontCIDFontType2.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontCIDFontType2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontTrueType.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontTrueType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontType0.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontType0.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontType1.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontType1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontType3.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontType3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/PDFObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/PDFObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Pages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Parser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Document.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Document.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementArray.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementBoolean.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementBoolean.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementDate.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementDate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementHexa.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementHexa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementMissing.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementMissing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementName.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementName.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementNull.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementNull.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementNumeric.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementNumeric.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementString.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementString.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementStruct.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementStruct.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementXRef.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementXRef.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Font.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/PDFObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/PDFObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Parser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/XObject/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/XObject/Form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/XObject/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/XObject/Image.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treatment.php" beforeDir="false" afterPath="$PROJECT_DIR$/treatment.php" afterDir="false" />
-    </list>
+    <list default="true" id="bacf2d9c-f770-4c55-ba24-4402c6a2626c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="DatabaseView">
@@ -105,95 +26,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              <folding>
-                <element signature="e#3895#3914#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/treatment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="261" column="106" selection-start-line="261" selection-start-column="106" selection-end-line="261" selection-end-column="106" />
-              <folding>
-                <element signature="e#7#41#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logPost.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/excel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="e#191#230#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdf.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-              <folding>
-                <element signature="e#183#222#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/monolog.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding>
-                <element signature="e#224#243#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-318">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -216,32 +49,23 @@
         <option value="$PROJECT_DIR$/function.php" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/css/bootstrap/excel.php" />
+        <option value="$PROJECT_DIR$/treatment.php" />
         <option value="$PROJECT_DIR$/excel2.php" />
-        <option value="$PROJECT_DIR$/Script-example/Blog/linkExcel.php" />
-        <option value="$PROJECT_DIR$/linkExcel.php" />
-        <option value="$PROJECT_DIR$/pdf.php" />
-        <option value="$PROJECT_DIR$/logout.php" />
         <option value="$PROJECT_DIR$/monolog.php" />
-        <option value="$PROJECT_DIR$/logPost.txt" />
         <option value="$PROJECT_DIR$/excel.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/treatment.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
       <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
       <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
-      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
-      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
-      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
-      <path value="$PROJECT_DIR$/vendor/setasign/fpdi" />
-      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/vendor/mpdf/mpdf" />
     </include_path>
   </component>
   <component name="ProjectConfigurationFiles">
@@ -253,9 +77,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1366" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="650" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -263,23 +88,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="osago.rarus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="osago.rarus" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -288,7 +114,6 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="run.code.analysis.last.selected.profile" value="aProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RecentsManager">
@@ -322,20 +147,17 @@
       <workItem from="1551769602914" duration="26394000" />
       <workItem from="1551851684695" duration="27485000" />
       <workItem from="1551937943266" duration="21029000" />
-      <workItem from="1552072238633" duration="649000" />
-      <workItem from="1552095491890" duration="7858000" />
-      <workItem from="1552145005943" duration="14321000" />
-      <workItem from="1552227029504" duration="18048000" />
+      <workItem from="1552285145184" duration="773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123668000" />
+    <option name="totallyTimeSpent" value="85276000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20811099" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2019154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -348,36 +170,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32983193" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" order="12" visible="true" weight="0.32983193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32242617" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20811099" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32983193" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" order="12" visible="true" weight="0.32983193" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32242617" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -392,8 +191,44 @@
     <entry file="file://$PROJECT_DIR$/pdfReadres.html" />
     <entry file="file://$PROJECT_DIR$/pdfReadre-6_1.png" />
     <entry file="file://$PROJECT_DIR$/pdfReader.html" />
+    <entry file="file://$PROJECT_DIR$/Script-example/authorization/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script-example/authorization/main.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script-example/authorization/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="79" column="12" lean-forward="true" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script-example/Blog/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/parameter_input.php" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/24a36c7f-ebc3-450a-bc1f-65248cc32ebc/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/24a36c7f-ebc3-450a-bc1f-65248cc32ebc/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script-example/function.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="129" column="10" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -411,170 +246,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/function.php">
+    <entry file="file://$PROJECT_DIR$/treatment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="129" column="10" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
+        <state relative-caret-position="4170">
+          <caret line="278" column="21" selection-start-line="278" selection-start-column="21" selection-end-line="278" selection-end-column="21" />
+          <folding>
+            <element signature="e#7#40#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/function.php">
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/samples/Basic/01_Simple.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="1" />
-        </state>
+        <state relative-caret-position="-555" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/Blog/admin/headerAdmin.php">
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/samples/Basic/01_Simple_download_ods.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="22" selection-start-line="14" selection-start-column="8" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/Blog/admin/indexAdmin.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/Blog/admin/insert.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/Blog/admin/update.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/Blog/header.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/Blog/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/authorization.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/check.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/logout.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/main.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/number1.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/personalyArea.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/profile.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/register.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/users.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1550">
-          <caret line="330" column="20" selection-start-line="330" selection-start-column="20" selection-end-line="330" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/Blog/admin/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkExcel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logPost.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+        <state relative-caret-position="90">
+          <caret line="38" lean-forward="true" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/excel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#191#230#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="e#183#222#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monolog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#224#243#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-318">
+        <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monolog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="e#3895#3914#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/treatment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="261" column="106" selection-start-line="261" selection-start-column="106" selection-end-line="261" selection-end-column="106" />
-          <folding>
-            <element signature="e#7#41#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="-105">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>

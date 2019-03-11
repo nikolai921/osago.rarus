@@ -4,10 +4,6 @@ session_start();
 error_reporting(E_ALL);
 ini_set('display_errors', 'on');
 
-//print_r($current);
-print_r($_SESSION);
-//$current = implode(', ', $_SESSION['post']);
-
 
 require_once __DIR__ . '/vendor/autoload.php';
 

@@ -2,8 +2,6 @@
 
 session_start();
 
-print_r($_SESSION);
-
 require_once('vendor/autoload.php');
 
 $spreadsheet = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
