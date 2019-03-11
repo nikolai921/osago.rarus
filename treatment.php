@@ -11,7 +11,7 @@ ini_set('display_errors', 'on');
  * Устанавливаем доступ к базе данных:
  */
 $host = 'localhost'; //имя хоста, на локальном компьютере это localhost
-$user = 'root'; //имя пользователя, по умолчанию это root
+$user = 'admin.osago'; //имя пользователя, по умолчанию это root
 $password = '13579'; //пароль, по умолчанию пустой
 $db_name = 'osago.rarus'; //имя базы данных
 
@@ -56,7 +56,7 @@ function selectForm($name_select, $name_data, $name_array, $name_key_array)
 }
 
 /**
- * Функция для формирования таблицы результатов
+ * Функция для формирования таблицы результатов расчета премии
  * @param $premium
  *
  * @return string
@@ -83,7 +83,7 @@ function bonus_received($premium)
 				<tr><td>Коэффициент КБМ:</td><td>{$_POST['KBM']}</td></tr>
 				<tr><td>Возраст водителя:</td><td>{$_POST['age_drivers']}</td></tr>
 				<tr><td>Водительский стаж:</td><td>{$_POST['experience_drivers']}</td></tr>
-				<tr><td>Водитель иностранный агент:</td><td>{$_POST['foreigner']}</td></tr>
+				<tr><td>ТС зарегестрировано в иностранном государстве:</td><td>{$_POST['foreigner']}</td></tr>
 				<tr><td>Юр. лицо или физ. лицо:</td><td>{$_POST['legal_form']}</td></tr>
 				<tr><td>Период использования:</td><td>{$_POST['period_use']}</td></tr>
 				<tr><td>Участие в ДТП:</td><td>{$_POST['violations']}</td></tr>
@@ -99,7 +99,7 @@ function bonus_received($premium)
 }
 
 /**
- * Функция формирует запрос к БД
+ * Функция формирует запрос к БД, по заданому параметру и таблице
  * @param $link
  * @param $name
  * @param $table
@@ -122,7 +122,7 @@ SQL;
 
 /**
  * Обработка данных полученных из формы, задача записать в главную таблицу БД
- * индексы по всем основным параметрам.
+ * индексы (id - соответствующей строке, связанной таблице) по всем основным параметрам.
  *
  * @param $link
  *
@@ -235,7 +235,7 @@ function formDataSend($link)
 }
 
 /**
- * Отправка данных в БД (вызов функции)
+ * Отправка данных в БД (вызов функции), присвоение результата переменной $index_comb
  */
 
 $index_comb = formDataSend($link);
@@ -259,7 +259,7 @@ $name_period_use = DataFromForm($link, 'short_name', 'period_use_table');
 $name_violations = DataFromForm($link, 'violations', 'user_options_table');
 
 /**
- * Основная логика вычисления, формируем показатели стоимости премии округленный до 2 знаков после запятой
+ * Основная логика вычисления, формируем показатель стоимости премии округленный до 2 знаков после запятой
  * @param $index_comb
  * @param $link
  *
@@ -277,11 +277,15 @@ function premium($index_comb, $link)
     $limit_number_drivers = 1; // коэффициент КО при ограниченном количестве водителей
     $coeff_violations = 1.5; // коэффициент КН - при наличие нарушений
 
+    /*
+     * часто повторяемые значения
+     */
     $foreigner = $index_comb['foreigner']['id'];
     $legal_form = $index_comb['legal_form']['id'];
+    $type_TS = $index_comb['type_ts']['id'];
 
     /*
-     * Вводим переменные которые описывают показатели, но не вошли в структуру БД
+     * расчет каждого показателя в отдельности
      */
     if (!empty($index_comb)) {
 
@@ -320,10 +324,10 @@ function premium($index_comb, $link)
          */
 
         if ($foreigner == 1 && $legal_form == 1) {
-//    иностранец и физ. лицо
+        //    иностранец и физ. лицо
             $KBC = 1.7;
         } elseif ($foreigner == 1 && $legal_form == 2) {
-//    иностранец и юр. лицо
+        //    иностранец и юр. лицо
             $KBC = 1;
         } else {
 
@@ -380,36 +384,45 @@ function premium($index_comb, $link)
             $KH = 1;
         }
 
-        $type_TS = $index_comb['type_ts']['id'];
+        /*
+         * результирующий расчет премии, в первый блок входит 3 типа категорий ТС, и под них рассчитываются вариации
+         * по типу юридического оформления и является ли ТС зарегистрированным в иностранном государстве.
+         */
 
         if ($type_TS == 2 || $type_TS == 3 || $type_TS == 4) {
             if ($foreigner == 2 && $legal_form == 1) {
-//    физ. лицо
+        //    физ. лицо
                 $premium = $TB * $KT * $KBM * $KBC * $KO * $KM * $KC * $KH;
             } elseif ($foreigner == 2 && $legal_form == 2) {
-//    юр. лицо
+        //    юр. лицо
                 $premium = $TB * $KT * $KBM * $KO * $KM * $KC * $KH * $KPt;
             } elseif ($foreigner == 1 && $legal_form == 1) {
-//    физ. лицо иностранец
+        //    физ. лицо иностранец
                 $premium = $TB * $KT * $KBM * $KBC * $KO * $KM * $KP * $KH;
             } elseif ($foreigner == 1 && $legal_form == 2) {
-//    юр. лицо иностранец
+        //    юр. лицо иностранец
                 $premium = $TB * $KT * $KBM * $KO * $KM * $KP * $KH * $KPt;
             } else {
                 $premium = 0;
             }
+
+        /*
+         * второй блок под который попадают все остальные типы ТС, не включенные в первый
+         * и вариации такого же типа как и в первом блоке.
+         */
+
         } else {
             if ($foreigner == 2 && $legal_form == 1) {
-//    физ. лицо
+        //    физ. лицо
                 $premium = $TB * $KT * $KBM * $KBC * $KO * $KC * $KH * $KPt;
             } elseif ($foreigner == 2 && $legal_form == 2) {
-//    юр. лицо
+        //    юр. лицо
                 $premium = $TB * $KT * $KBM * $KO * $KC * $KH * $KPt;
             } elseif ($foreigner == 1 && $legal_form == 1) {
-//    физ. лицо иностранец
+        //    физ. лицо иностранец
                 $premium = $TB * $KT * $KBM * $KBC * $KO * $KP * $KH * $KPt;
             } elseif ($foreigner == 1 && $legal_form == 2) {
-//    юр. лицо иностранец
+        //    юр. лицо иностранец
                 $premium = $TB * $KT * $KBM * $KO * $KP * $KH * $KPt;
             } else {
                 $premium = 0;
@@ -424,7 +437,7 @@ function premium($index_comb, $link)
 }
 
 /**
- * вызов функции по раcчету премии
+ * вызов функции по раcчету премии, и просвоение результата переменной $premium
  */
 $premium = premium($index_comb, $link);
 

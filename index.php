@@ -47,7 +47,7 @@ $title = 'Калькулятор ОСАГО';
                             'age_drivers', $name_age_drivers, 'short_name');
 						$stringHTML .= selectForm('Водительский стаж:',
                             'experience_drivers', $name_experience_drivers, 'short_name');
-						$stringHTML .= selectForm('Является ли иностранным агентом:',
+						$stringHTML .= selectForm('ТС зарегестрировано в иностранном государстве:',
                             'foreigner', $name_foreigner, 'foreigner');
 						$stringHTML .= selectForm('Юр. лицо или физ. лицо:',
                             'legal_form', $name_legal_form, 'legal_form');
@@ -74,7 +74,7 @@ $_SESSION['post'] = $_POST;
 $_SESSION['post']['premium'] = $premium;
 
 /*
- * Запись истории отправки данных формы HTML
+ * Запись истории отправки данных формы HTML - реализация одного из вариантов логирования
  */
 
 if (!empty($_POST))
