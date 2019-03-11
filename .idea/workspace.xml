@@ -2,13 +2,405 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bacf2d9c-f770-4c55-ba24-4402c6a2626c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Autoloader.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Autoloader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/APC.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/APC.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/CacheBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/CacheBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/DiscISAM.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/DiscISAM.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/ICache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/ICache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/Igbinary.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/Igbinary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/Memcache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/Memcache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/Memory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/Memory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/MemoryGZip.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/MemoryGZip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/MemorySerialized.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/MemorySerialized.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/PHPTemp.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/PHPTemp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/SQLite.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/SQLite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/SQLite3.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/SQLite3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/Wincache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorage/Wincache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorageFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CachedObjectStorageFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CalcEngine/CyclicReferenceStack.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CalcEngine/CyclicReferenceStack.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/CalcEngine/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/CalcEngine/Logger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/DateTime.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/DateTime.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Engineering.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Engineering.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/ExceptionHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/ExceptionHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Financial.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Financial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/FormulaParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/FormulaParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/FormulaToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/FormulaToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Function.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Logical.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Logical.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/LookupRef.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/LookupRef.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/MathTrig.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/MathTrig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Statistical.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Statistical.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/TextData.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/TextData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Token/Stack.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/Token/Stack.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/functionlist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Calculation/functionlist.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Cell.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Cell.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Cell/AdvancedValueBinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Cell/AdvancedValueBinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Cell/DataType.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Cell/DataType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Cell/DataValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Cell/DataValidation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Cell/DefaultValueBinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Cell/DefaultValueBinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Cell/Hyperlink.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Cell/Hyperlink.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Cell/IValueBinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Cell/IValueBinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Chart.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Chart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/DataSeries.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/DataSeries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/DataSeriesValues.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/DataSeriesValues.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/Layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/Layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/Legend.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/Legend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/PlotArea.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/PlotArea.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/Renderer/jpgraph.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/Renderer/jpgraph.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/Title.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Chart/Title.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/DocumentProperties.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/DocumentProperties.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/DocumentSecurity.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/DocumentSecurity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/HashTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/HashTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/IComparable.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/IComparable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/IOFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/IOFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/NamedRange.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/NamedRange.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Abstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Abstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/CSV.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/CSV.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/DefaultReadFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/DefaultReadFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel2003XML.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel2003XML.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel2007.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel2007.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel2007/Chart.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel2007/Chart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel2007/Theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel2007/Theme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel5.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel5/Escher.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel5/Escher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel5/MD5.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel5/MD5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel5/RC4.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Excel5/RC4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Gnumeric.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/Gnumeric.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/HTML.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/HTML.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/IReadFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/IReadFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/IReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/IReader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/OOCalc.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/OOCalc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/SYLK.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Reader/SYLK.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/ReferenceHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/ReferenceHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/RichText.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/RichText.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/RichText/ITextElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/RichText/ITextElement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/RichText/Run.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/RichText/Run.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/RichText/TextElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/RichText/TextElement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/CodePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/CodePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Date.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Date.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Drawing.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Drawing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DgContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DgContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DggContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DggContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Excel5.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Excel5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/Font.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/CHANGELOG.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/CHANGELOG.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/CholeskyDecomposition.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/CholeskyDecomposition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/LUDecomposition.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/LUDecomposition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/Matrix.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/Matrix.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/QRDecomposition.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/QRDecomposition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/SingularValueDecomposition.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/SingularValueDecomposition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/utils/Error.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/utils/Error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/utils/Maths.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/JAMA/utils/Maths.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/OLE.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/OLE.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/OLE/ChainedBlockStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/OLE/ChainedBlockStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/OLE/PPS.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/OLE/PPS.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/OLE/PPS/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/OLE/PPS/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/OLE/PPS/Root.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/OLE/PPS/Root.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/OLERead.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/OLERead.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/PCLZip/pclzip.lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/PCLZip/pclzip.lib.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/PCLZip/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/PCLZip/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/PasswordHasher.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/PasswordHasher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/String.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/String.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/TimeZone.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/TimeZone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/XMLWriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/XMLWriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/ZipArchive.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/ZipArchive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/ZipStreamWrapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/ZipStreamWrapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/bestFitClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/bestFitClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/linearBestFitClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/linearBestFitClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/logarithmicBestFitClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/logarithmicBestFitClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/polynomialBestFitClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/polynomialBestFitClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/powerBestFitClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/powerBestFitClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/trendClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Shared/trend/trendClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Style.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Style.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Alignment.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Alignment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Border.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Border.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Borders.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Borders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Color.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Color.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Conditional.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Fill.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Fill.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Font.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Style/NumberFormat.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Style/NumberFormat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Protection.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Protection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Supervisor.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Style/Supervisor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/AutoFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/AutoFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/AutoFilter/Column.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/AutoFilter/Column.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/AutoFilter/Column/Rule.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/AutoFilter/Column/Rule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/BaseDrawing.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/BaseDrawing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/CellIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/CellIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/ColumnDimension.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/ColumnDimension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/Drawing.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/Drawing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/Drawing/Shadow.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/Drawing/Shadow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/HeaderFooter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/HeaderFooter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/HeaderFooterDrawing.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/HeaderFooterDrawing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/MemoryDrawing.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/MemoryDrawing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/PageMargins.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/PageMargins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/PageSetup.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/PageSetup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/Protection.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/Protection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/Row.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/Row.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/RowDimension.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/RowDimension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/RowIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/RowIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/SheetView.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Worksheet/SheetView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/WorksheetIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/WorksheetIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Abstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Abstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/CSV.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/CSV.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Chart.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Chart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/ContentTypes.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/ContentTypes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/DocProps.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/DocProps.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Drawing.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Drawing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Rels.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Rels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/RelsRibbon.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/RelsRibbon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/RelsVBA.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/RelsVBA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/StringTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/StringTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Style.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Style.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Theme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Workbook.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Workbook.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Worksheet.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/Worksheet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/WriterPart.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel2007/WriterPart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/BIFFwriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/BIFFwriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/Escher.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/Escher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/Font.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/Parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/Workbook.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/Workbook.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/Worksheet.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/Worksheet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/Xf.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Excel5/Xf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/HTML.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/HTML.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/IWriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/IWriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/PDF.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/PDF.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/PDF/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/PDF/Core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/PDF/DomPDF.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/PDF/DomPDF.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/PDF/mPDF.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/PDF/mPDF.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/PDF/tcPDF.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/Writer/PDF/tcPDF.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/bg/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/bg/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/cs/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/cs/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/cs/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/cs/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/da/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/da/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/da/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/da/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/de/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/de/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/de/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/de/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/en/uk/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/en/uk/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/es/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/es/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/es/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/es/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/fi/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/fi/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/fi/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/fi/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/fr/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/fr/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/fr/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/fr/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/hu/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/hu/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/hu/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/hu/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/it/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/it/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/it/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/it/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/nl/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/nl/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/nl/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/nl/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/no/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/no/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/no/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/no/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/pl/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/pl/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/pl/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/pl/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/pt/br/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/pt/br/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/pt/br/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/pt/br/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/pt/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/pt/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/pt/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/pt/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/ru/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/ru/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/ru/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/ru/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/sv/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/sv/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/sv/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/sv/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/tr/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/tr/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Classes/PHPExcel/locale/tr/functions" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/PHPExcel/locale/tr/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/01pharSimple.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/01pharSimple.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/01simple-download-pdf.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/01simple-download-pdf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/01simple-download-xls.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/01simple-download-xls.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/01simple-download-xlsx.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/01simple-download-xlsx.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/01simple.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/01simple.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/01simplePCLZip.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/01simplePCLZip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/02types-xls.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/02types-xls.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/02types.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/02types.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/03formulas.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/03formulas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/04printing.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/04printing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/05featuredemo.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/05featuredemo.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/05featuredemo.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/05featuredemo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/06largescale-with-cellcaching-sqlite.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/06largescale-with-cellcaching-sqlite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/06largescale-with-cellcaching-sqlite3.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/06largescale-with-cellcaching-sqlite3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/06largescale-with-cellcaching.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/06largescale-with-cellcaching.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/06largescale-xls.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/06largescale-xls.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/06largescale.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/06largescale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/07reader.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/07reader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/07readerPCLZip.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/07readerPCLZip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/08conditionalformatting.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/08conditionalformatting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/08conditionalformatting2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/08conditionalformatting2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/09pagebreaks.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/09pagebreaks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/10autofilter-selection-1.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/10autofilter-selection-1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/10autofilter-selection-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/10autofilter-selection-2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/10autofilter-selection-display.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/10autofilter-selection-display.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/10autofilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/10autofilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/11documentsecurity-xls.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/11documentsecurity-xls.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/11documentsecurity.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/11documentsecurity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/12cellProtection.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/12cellProtection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/13calculation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/13calculation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/14excel5.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/14excel5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/15datavalidation-xls.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/15datavalidation-xls.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/15datavalidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/15datavalidation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/16csv.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/16csv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/17html.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/17html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/18extendedcalculation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/18extendedcalculation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/19namedrange.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/19namedrange.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/20readexcel5.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/20readexcel5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/21pdf.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/21pdf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/22heavilyformatted.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/22heavilyformatted.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/23sharedstyles.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/23sharedstyles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/24readfilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/24readfilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/25inmemoryimage.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/25inmemoryimage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/26utf8.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/26utf8.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/27imagesexcel5.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/27imagesexcel5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/28iterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/28iterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/29advancedvaluebinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/29advancedvaluebinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/30template.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/30template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/31docproperties_write-xls.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/31docproperties_write-xls.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/31docproperties_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/31docproperties_write.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/32chartreadwrite.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/32chartreadwrite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/33chartcreate-area.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/33chartcreate-area.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/33chartcreate-bar-stacked.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/33chartcreate-bar-stacked.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/33chartcreate-bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/33chartcreate-bar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/33chartcreate-column-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/33chartcreate-column-2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/33chartcreate-column.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/33chartcreate-column.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/33chartcreate-composite.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/33chartcreate-composite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/33chartcreate-line.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/33chartcreate-line.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/33chartcreate-multiple-charts.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/33chartcreate-multiple-charts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/33chartcreate-pie.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/33chartcreate-pie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/33chartcreate-radar.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/33chartcreate-radar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/33chartcreate-scatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/33chartcreate-scatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/33chartcreate-stock.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/33chartcreate-stock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/34chartupdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/34chartupdate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/35chartrender.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/35chartrender.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/36chartreadwriteHTML.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/36chartreadwriteHTML.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/36chartreadwritePDF.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/36chartreadwritePDF.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/37page_layout_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/37page_layout_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/38cloneWorksheet.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/38cloneWorksheet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/40duplicateStyle.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/40duplicateStyle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/Excel2003XMLReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/Excel2003XMLReader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/Excel2003XMLTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/Excel2003XMLTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/GnumericReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/GnumericReader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/GnumericTest.gnumeric" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/GnumericTest.gnumeric" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/OOCalcReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/OOCalcReader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/OOCalcReaderPCLZip.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/OOCalcReaderPCLZip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/OOCalcTest.ods" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/OOCalcTest.ods" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/Quadratic.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/Quadratic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/Quadratic.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/Quadratic.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/Quadratic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/Quadratic2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/SylkReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/SylkReader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/SylkTest.slk" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/SylkTest.slk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/XMLReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/XMLReader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/XMLTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/XMLTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/images/officelogo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/images/officelogo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/images/paid.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/images/paid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/images/phpexcel_logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/images/phpexcel_logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/images/termsconditions.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/images/termsconditions.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/runall.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/runall.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/26template.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/26template.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/27template.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/27template.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/30template.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/30template.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/31docproperties.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/31docproperties.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/31docproperties.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/31docproperties.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32chartreadwrite.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32chartreadwrite.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32complexChartreadwrite.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32complexChartreadwrite.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaChart3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaChart3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaChart3D1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaChart3D1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaPercentageChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaPercentageChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaPercentageChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaPercentageChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaPercentageChart3D1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaPercentageChart3D1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaStackedChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaStackedChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaStackedChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaStackedChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaStackedChart3D1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteAreaStackedChart3D1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteBarChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteBarChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteBarChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteBarChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteBarChart3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteBarChart3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteBarChart3D1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteBarChart3D1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteBarPercentageChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteBarPercentageChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteBarPercentageChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteBarPercentageChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteBarPercentageChart3D1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteBarPercentageChart3D1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteBarStackedChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteBarStackedChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteBarStackedChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteBarStackedChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteBarStackedChart3D1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteBarStackedChart3D1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteBubbleChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteBubbleChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteBubbleChart3D1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteBubbleChart3D1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteChartWithImages1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteChartWithImages1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnChart3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnChart3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnChart3D1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnChart3D1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnChart4.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnChart4.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnPercentageChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnPercentageChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnPercentageChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnPercentageChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnPercentageChart3D1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnPercentageChart3D1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnStackedChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnStackedChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnStackedChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnStackedChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnStackedChart3D1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteColumnStackedChart3D1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteDonutChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteDonutChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteDonutChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteDonutChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteDonutChart3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteDonutChart3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteDonutChart4.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteDonutChart4.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteDonutChartExploded1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteDonutChartExploded1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteDonutChartMultiseries1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteDonutChartMultiseries1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteLineChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteLineChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteLineChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteLineChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteLineChart3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteLineChart3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteLineChart3D1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteLineChart3D1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteLineChartNoPointMarkers1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteLineChartNoPointMarkers1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteLinePercentageChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteLinePercentageChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteLinePercentageChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteLinePercentageChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteLineStackedChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteLineStackedChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteLineStackedChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteLineStackedChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwritePieChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwritePieChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwritePieChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwritePieChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwritePieChart3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwritePieChart3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwritePieChart3D1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwritePieChart3D1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwritePieChart4.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwritePieChart4.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwritePieChartExploded1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwritePieChartExploded1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwritePieChartExploded3D1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwritePieChartExploded3D1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteRadarChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteRadarChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteRadarChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteRadarChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteRadarChart3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteRadarChart3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteScatterChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteScatterChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteScatterChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteScatterChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteScatterChart3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteScatterChart3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteScatterChart4.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteScatterChart4.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteScatterChart5.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteScatterChart5.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteStockChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteStockChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteStockChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteStockChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteStockChart3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteStockChart3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteStockChart4.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteStockChart4.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteSurfaceChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteSurfaceChart1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteSurfaceChart2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteSurfaceChart2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteSurfaceChart3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteSurfaceChart3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteSurfaceChart4.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteSurfaceChart4.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examples/templates/36writeLineChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/36writeLineChart1.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logPost.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logPost.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/out.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.atoum.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.atoum.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.gitattributes" afterDir="false" />
@@ -87,7 +479,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="DatabaseView">
@@ -109,7 +501,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="735">
               <caret line="49" column="96" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="97" />
             </state>
           </provider>
@@ -118,8 +510,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/treatment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="363" lean-forward="true" selection-start-line="363" selection-end-line="363" />
+            <state relative-caret-position="150">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="33" column="13" selection-start-line="32" selection-end-line="35" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -133,7 +534,7 @@
         <entry file="file://$PROJECT_DIR$/logs/test.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -172,13 +573,17 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
-      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
       <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
       <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/setasign/fpdi" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/mpdf" />
     </include_path>
   </component>
   <component name="ProjectConfigurationFiles">
@@ -201,7 +606,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,6 +621,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,18 +669,19 @@
       <workItem from="1551769602914" duration="26394000" />
       <workItem from="1551851684695" duration="27485000" />
       <workItem from="1551937943266" duration="21029000" />
-      <workItem from="1552285145184" duration="9990000" />
+      <workItem from="1552285145184" duration="11523000" />
+      <workItem from="1552312665415" duration="732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94493000" />
+    <option name="totallyTimeSpent" value="96758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20031923" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20351157" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -288,7 +694,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -309,26 +715,10 @@
     <entry file="file://$PROJECT_DIR$/pdfReadres.html" />
     <entry file="file://$PROJECT_DIR$/pdfReadre-6_1.png" />
     <entry file="file://$PROJECT_DIR$/pdfReader.html" />
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/main.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/authorization/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="79" column="12" lean-forward="true" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/Blog/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Script-example/authorization/admin.php" />
+    <entry file="file://$PROJECT_DIR$/Script-example/authorization/main.php" />
+    <entry file="file://$PROJECT_DIR$/Script-example/authorization/function.php" />
+    <entry file="file://$PROJECT_DIR$/Script-example/Blog/index.php" />
     <entry file="file://$PROJECT_DIR$/parameter_input.php" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/24a36c7f-ebc3-450a-bc1f-65248cc32ebc/console.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -337,16 +727,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Script-example/function.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Script-example/function.php" />
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -376,22 +757,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="129" column="10" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monolog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="23" selection-start-line="23" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/function.php" />
+    <entry file="file://$PROJECT_DIR$/monolog.php" />
     <entry file="file://$PROJECT_DIR$/logout.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="96" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="97" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logPost.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -399,21 +775,21 @@
     <entry file="file://$PROJECT_DIR$/logs/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="49" column="96" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="97" />
+        <state relative-caret-position="242">
+          <caret line="33" column="13" selection-start-line="32" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/treatment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="363" lean-forward="true" selection-start-line="363" selection-end-line="363" />
+        <state relative-caret-position="150">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
