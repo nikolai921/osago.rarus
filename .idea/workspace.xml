@@ -3,12 +3,77 @@
   <component name="ChangeListManager">
     <list default="true" id="bacf2d9c-f770-4c55-ba24-4402c6a2626c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logPost.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logPost.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monolog.php" beforeDir="false" afterPath="$PROJECT_DIR$/monolog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/out.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monolog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.atoum.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.atoum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_foxitreader.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_foxitreader.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_pdfcreator.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_pdfcreator.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_pdfcreator_nocompressed.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_pdfcreator_nocompressed.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_pdfxchange.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document1_pdfxchange.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document2_pdfcreator_nocompressed.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document2_pdfcreator_nocompressed.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document3_pdfcreator_nocompressed.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/Document3_pdfcreator_nocompressed.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/bugs/Issue18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/bugs/Issue18.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/bugs/Issue33.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/bugs/Issue33.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/samples/bugs/Issue95_ANSI.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/samples/bugs/Issue95_ANSI.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Document.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Document.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementArray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementBoolean.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementBoolean.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementDate.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementDate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementHexa.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementHexa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementMissing.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementMissing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementName.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementName.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementNull.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementNull.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementNumeric.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementNumeric.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementString.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementString.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementStruct.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementStruct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementXRef.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Element/ElementXRef.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/ISOLatin1Encoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/ISOLatin1Encoding.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/ISOLatin9Encoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/ISOLatin9Encoding.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/MacRomanEncoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/MacRomanEncoding.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/StandardEncoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/StandardEncoding.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/WinAnsiEncoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Encoding/WinAnsiEncoding.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontCIDFontType0.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontCIDFontType0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontCIDFontType2.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontCIDFontType2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontTrueType.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontTrueType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontType0.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontType0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontType1.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontType1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontType3.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Font/FontType3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/PDFObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/PDFObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Document.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Document.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementArray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementBoolean.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementBoolean.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementDate.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementDate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementHexa.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementHexa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementMissing.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementMissing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementName.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementName.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementNull.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementNull.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementNumeric.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementNumeric.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementString.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementString.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementStruct.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementStruct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementXRef.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Element/ElementXRef.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Font.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/PDFObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/PDFObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/XObject/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/XObject/Form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/XObject/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/XObject/Image.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/treatment.php" beforeDir="false" afterPath="$PROJECT_DIR$/treatment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../task.rarus.copi/task.rarus" beforeDir="false" afterPath="$PROJECT_DIR$/../task.rarus.copi/task.rarus" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../task.rarus1" beforeDir="false" afterPath="$PROJECT_DIR$/../task.rarus1" afterDir="false" />
@@ -50,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/treatment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="261" column="106" selection-start-line="261" selection-start-column="3" selection-end-line="261" selection-end-column="106" />
+            <state relative-caret-position="300">
+              <caret line="426" column="23" selection-start-line="426" selection-start-column="23" selection-end-line="426" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -107,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="650" />
@@ -182,18 +247,18 @@
       <workItem from="1551769602914" duration="26394000" />
       <workItem from="1551851684695" duration="27485000" />
       <workItem from="1551937943266" duration="21029000" />
-      <workItem from="1552285145184" duration="3400000" />
+      <workItem from="1552285145184" duration="4108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87903000" />
+    <option name="totallyTimeSpent" value="88611000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="650" height="743" extended-state="4" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2019154" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20031923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -258,13 +323,6 @@
     <entry file="file://$PROJECT_DIR$/Script-example/function.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="129" column="10" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -307,13 +365,6 @@
     <entry file="file://$PROJECT_DIR$/logPost.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/monolog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" selection-start-line="23" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -324,10 +375,24 @@
     <entry file="file://$PROJECT_DIR$/logs/test.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="129" column="10" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monolog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="23" selection-start-line="23" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/treatment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="261" column="106" selection-start-line="261" selection-start-column="3" selection-end-line="261" selection-end-column="106" />
+        <state relative-caret-position="300">
+          <caret line="426" column="23" selection-start-line="426" selection-start-column="23" selection-end-line="426" selection-end-column="23" />
         </state>
       </provider>
     </entry>

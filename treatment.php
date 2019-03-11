@@ -424,7 +424,7 @@ function premium($index_comb, $link)
 }
 
 /**
- * вызов функции по расчету премии
+ * вызов функции по раcчету премии
  */
 $premium = premium($index_comb, $link);
 
