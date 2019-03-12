@@ -9,6 +9,8 @@ $spreadsheet = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
 //use PhpOffice\PhpSpreadsheet\Helper\Sample;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Style;
+
 
 $sOutFile = 'out.xlsx';
 
@@ -52,6 +54,20 @@ $oSpreadsheet_Out->setActiveSheetIndex(0)
     ->setCellValue('B12', $_SESSION['post']['violations'])
     ->setCellValue('B13', $_SESSION['post']['premium'])
 ;
+
+//$styleArray = [
+//    'borders' => [
+//        'outline' => [
+//            'borderStyle' => \PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THICK,
+//            'color' => ['argb' => 'FFFF0000'],
+//        ],
+//    ],
+//];
+//
+//$worksheet->getStyle('B2:G8')->applyFromArray($styleArray);
+
+
+
 
 $oWriter = IOFactory::createWriter($oSpreadsheet_Out, 'Xlsx');
 $oWriter->save($sOutFile);

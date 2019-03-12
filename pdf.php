@@ -24,4 +24,8 @@ $oWriter = IOFactory::createWriter($oSpreadsheet, 'Mpdf');
 
 $oWriter->save('out.pdf');
 
+
+
+//header('Content-Disposition: attachment; filename=out.pdf');
+
 header('location: out.pdf');

@@ -134,7 +134,7 @@ function bonus_received($premium)
 				<tr><td>Участие в ДТП:</td><td>{$_POST['violations']}</td></tr>
 				<tr><td>Расчетная премия:</td><td> {$premium}</td></tr>
 				<tr><td>Файл .xlsx</td><td><a href='excel.php'>Скачать</a></td></tr>
-				<tr><td>Файл .pdf</td><td><a href='pdf.php'>Скачать</a></td></tr>
+				<tr><td>Файл .pdf</td><td><a href='pdf.php' target='_blank'>Скачать</a></td></tr>
 				<tr><td>Сбросить расчетные данные:</td><td><a href='logout.php'>Сбросить</a></td></tr>";
     }
 
