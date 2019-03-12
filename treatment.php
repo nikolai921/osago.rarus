@@ -10,6 +10,7 @@ ini_set('display_errors', 'on');
 /**
  * Устанавливаем доступ к базе данных:
  */
+
 $host = 'localhost'; //имя хоста, на локальном компьютере это localhost
 $user = 'root'; //имя пользователя, по умолчанию это root
 $password = '13579'; //пароль, по умолчанию пустой
@@ -57,6 +58,48 @@ function selectForm($name_select, $name_data, $name_array, $name_key_array)
 }
 
 /**
+ * Авто создание radio кнопок по параметрам
+ *
+ * @param $name_select
+ * @param $name_data
+ * @param $name_array
+ * @param $name_key_array
+ *
+ * @return string
+ */
+function radioForm($name_select, $name_data, $name_array, $name_key_array)
+{
+    $string =
+        '<br>' . $name_select . '</br>';
+
+    foreach ($name_array as $key => $elem) {
+        $param = $elem[$name_key_array];
+
+        if (!empty($_POST)) {
+            $varPost = $_POST[$name_data];
+            if ($varPost === $param) {
+                $string .= ' <r>' . $param . '</r> 
+         <input type="radio" name="' . $name_data . '" checked value="' . $param . '">';
+            } else {
+                $string .= ' <r>' . $param . '</r> 
+         <input type="radio" name="' . $name_data . '" value="' . $param . '">';
+            }
+
+        } elseif ($key == 0) {
+            $string .= ' <r>' . $param . '</r> 
+         <input type="radio" name="' . $name_data . '" checked value="' . $param . '">';
+        } else {
+            $string .= ' <r>' . $param . '</r> 
+         <input type="radio" name="' . $name_data . '" value="' . $param . '">';
+        }
+    }
+    $string .= '</select></p>';
+
+    return $string;
+
+}
+
+/**
  * Функция для формирования таблицы результатов расчета премии
  *
  * @param $premium
@@ -92,7 +135,7 @@ function bonus_received($premium)
 				<tr><td>Расчетная премия:</td><td> {$premium}</td></tr>
 				<tr><td>Файл .xlsx</td><td><a href='excel.php'>Скачать</a></td></tr>
 				<tr><td>Файл .pdf</td><td><a href='pdf.php'>Скачать</a></td></tr>
-				<tr><td>Обновить расчетные данные:</td><td><a href='logout.php'>Обновить</a></td></tr>";
+				<tr><td>Сбросить расчетные данные:</td><td><a href='logout.php'>Сбросить</a></td></tr>";
     }
 
     $content .= '</table>';
@@ -437,7 +480,8 @@ function premium($index_comb, $link)
         $premium = 0;
     }
 
-    return round($premium, 2) . ' ' . 'p.';
+    return number_format($premium, 2, ',', ' ') . ' ' . 'pуб.';
+
 }
 
 /**

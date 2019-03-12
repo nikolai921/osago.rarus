@@ -49,24 +49,15 @@ $stringHTML .= selectForm('Водительский стаж (период в г
     'experience_drivers', $name_experience_drivers, 'short_name');
 $stringHTML .= selectForm('Период использования (для резидентов РФ):',
     'period_use', $name_period_use, 'short_name');
-$stringHTML .= '<br>Юридическая форма оформления:</br>
-    <r>юр. лицо</r> 
-        <input type="radio" name="legal_form" checked value="юр. лицо">
-    <r>физ. лицо</r> 
-        <input type="radio" name="legal_form" value="физ. лицо"></br>';
-$stringHTML .= '<br>ТС зарегестрировано в иностранном государстве или нет:</br>
-    <r>Да</r> 
-        <input type="radio" name="foreigner" checked value="да">
-    <r>Нет</r> 
-        <input type="radio" name="foreigner" value="нет"></br>';
-$stringHTML .= '<br>Участие в ДТП:</br>
-    <r>Да</r> 
-        <input type="radio" name="violations" checked value="да">
-    <r>Нет</r> 
-    <input type="radio" name="violations" value="нет">';
+$stringHTML .= radioForm('Юридическая форма:',
+    'legal_form', $name_legal_form, "legal_form");
+$stringHTML .= radioForm('Зарегистрировано ли ТС в иностранном государстве:',
+    'foreigner', $name_foreigner, 'foreigner');
+$stringHTML .= radioForm('Участие в ДТП:',
+    'violations', $name_violations, 'violations');
 
 $stringHTML .=
-    '<p><input type="submit" class="btn btn-info btn-block" value="Рассчитать премию"></p>
+    '<p><br><input type="submit" class="btn btn-info btn-block" value="Рассчитать премию"></p>
 	 				</form>
 				</header>
 			</div>
@@ -109,5 +100,3 @@ $log = new Logger('name');
 $log->pushHandler(new StreamHandler(__DIR__ . '/logs/test.txt', Logger::INFO));
 
 $log->info($current);
-
- print_r($_POST);
