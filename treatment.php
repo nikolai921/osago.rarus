@@ -10,10 +10,10 @@ ini_set('display_errors', 'on');
 /**
  * Устанавливаем доступ к базе данных:
  */
-$host = '194.226.180.68:22165'; //имя хоста, на локальном компьютере это localhost
+$host = 'localhost'; //имя хоста, на локальном компьютере это localhost
 $user = 'root'; //имя пользователя, по умолчанию это root
-$password = ''; //пароль, по умолчанию пустой
-$db_name = 'osago_rarus'; //имя базы данных
+$password = '13579'; //пароль, по умолчанию пустой
+$db_name = 'osago.rarus'; //имя базы данных
 
 $link = mysqli_connect($host, $user, $password, $db_name);
 
@@ -22,9 +22,10 @@ mysqli_set_charset($link, "utf8");
 
 /**
  * Авто создание всплывающего списка по параметрам
- * @param $name_select - Имя списка
- * @param $name_data - Имя в массиве $_POST
- * @param $name_array - Имя массива полученного из БД
+ *
+ * @param $name_select    - Имя списка
+ * @param $name_data      - Имя в массиве $_POST
+ * @param $name_array     - Имя массива полученного из БД
  * @param $name_key_array - Ключ поиска по массиву
  *
  * @return string
@@ -57,6 +58,7 @@ function selectForm($name_select, $name_data, $name_array, $name_key_array)
 
 /**
  * Функция для формирования таблицы результатов расчета премии
+ *
  * @param $premium
  *
  * @return string
@@ -100,6 +102,7 @@ function bonus_received($premium)
 
 /**
  * Функция формирует запрос к БД, по заданому параметру и таблице
+ *
  * @param $link
  * @param $name
  * @param $table
@@ -260,6 +263,7 @@ $name_violations = DataFromForm($link, 'violations', 'user_options_table');
 
 /**
  * Основная логика вычисления, формируем показатель стоимости премии округленный до 2 знаков после запятой
+ *
  * @param $index_comb
  * @param $link
  *
@@ -324,10 +328,10 @@ function premium($index_comb, $link)
          */
 
         if ($foreigner == 1 && $legal_form == 1) {
-        //    иностранец и физ. лицо
+            //    иностранец и физ. лицо
             $KBC = 1.7;
         } elseif ($foreigner == 1 && $legal_form == 2) {
-        //    иностранец и юр. лицо
+            //    иностранец и юр. лицо
             $KBC = 1;
         } else {
 
@@ -391,38 +395,38 @@ function premium($index_comb, $link)
 
         if ($type_TS == 2 || $type_TS == 3 || $type_TS == 4) {
             if ($foreigner == 2 && $legal_form == 1) {
-        //    физ. лицо
+                //    физ. лицо
                 $premium = $TB * $KT * $KBM * $KBC * $KO * $KM * $KC * $KH;
             } elseif ($foreigner == 2 && $legal_form == 2) {
-        //    юр. лицо
+                //    юр. лицо
                 $premium = $TB * $KT * $KBM * $KO * $KM * $KC * $KH * $KPt;
             } elseif ($foreigner == 1 && $legal_form == 1) {
-        //    физ. лицо иностранец
+                //    физ. лицо иностранец
                 $premium = $TB * $KT * $KBM * $KBC * $KO * $KM * $KP * $KH;
             } elseif ($foreigner == 1 && $legal_form == 2) {
-        //    юр. лицо иностранец
+                //    юр. лицо иностранец
                 $premium = $TB * $KT * $KBM * $KO * $KM * $KP * $KH * $KPt;
             } else {
                 $premium = 0;
             }
 
-        /*
-         * второй блок под который попадают все остальные типы ТС, не включенные в первый
-         * и вариации такого же типа как и в первом блоке.
-         */
+            /*
+             * второй блок под который попадают все остальные типы ТС, не включенные в первый
+             * и вариации такого же типа как и в первом блоке.
+             */
 
         } else {
             if ($foreigner == 2 && $legal_form == 1) {
-        //    физ. лицо
+                //    физ. лицо
                 $premium = $TB * $KT * $KBM * $KBC * $KO * $KC * $KH * $KPt;
             } elseif ($foreigner == 2 && $legal_form == 2) {
-        //    юр. лицо
+                //    юр. лицо
                 $premium = $TB * $KT * $KBM * $KO * $KC * $KH * $KPt;
             } elseif ($foreigner == 1 && $legal_form == 1) {
-        //    физ. лицо иностранец
+                //    физ. лицо иностранец
                 $premium = $TB * $KT * $KBM * $KBC * $KO * $KP * $KH * $KPt;
             } elseif ($foreigner == 1 && $legal_form == 2) {
-        //    юр. лицо иностранец
+                //    юр. лицо иностранец
                 $premium = $TB * $KT * $KBM * $KO * $KP * $KH * $KPt;
             } else {
                 $premium = 0;

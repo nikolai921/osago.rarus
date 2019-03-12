@@ -401,6 +401,9 @@
       <change beforePath="$PROJECT_DIR$/../Examples/templates/36writeLineChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/36writeLineChart1.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logPost.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logPost.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.atoum.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.atoum.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.gitattributes" afterDir="false" />
@@ -501,8 +504,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="96" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="97" />
+            <state relative-caret-position="-375">
+              <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+              <folding>
+                <element signature="e#3257#3276#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -510,31 +516,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/treatment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="33" column="13" selection-start-line="32" selection-end-line="35" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logPost.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="-6029">
+              <caret line="36" column="37" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -566,8 +549,8 @@
         <option value="$PROJECT_DIR$/excel.php" />
         <option value="$PROJECT_DIR$/monolog.php" />
         <option value="$PROJECT_DIR$/logs/test.txt" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/treatment.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -606,6 +589,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -621,7 +605,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -670,18 +653,18 @@
       <workItem from="1551851684695" duration="27485000" />
       <workItem from="1551937943266" duration="21029000" />
       <workItem from="1552285145184" duration="11523000" />
-      <workItem from="1552312665415" duration="732000" />
+      <workItem from="1552312665415" duration="1954000" />
+      <workItem from="1552380222644" duration="9110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96758000" />
+    <option name="totallyTimeSpent" value="107090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20351157" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20670392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -694,7 +677,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -762,21 +745,9 @@
     <entry file="file://$PROJECT_DIR$/logout.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="96" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logPost.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
+        <state relative-caret-position="-124" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
@@ -786,10 +757,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/logs/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding>
+            <element signature="e#3257#3276#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/treatment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="-6029">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="37" />
         </state>
       </provider>
     </entry>
