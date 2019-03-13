@@ -400,12 +400,6 @@
       <change beforePath="$PROJECT_DIR$/../Examples/templates/32readwriteSurfaceChart4.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/32readwriteSurfaceChart4.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examples/templates/36writeLineChart1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Examples/templates/36writeLineChart1.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel.php" beforeDir="false" afterPath="$PROJECT_DIR$/excel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logPost.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logPost.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/out.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdf.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.atoum.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.atoum.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/.gitattributes" afterDir="false" />
@@ -474,7 +468,6 @@
       <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/Tests/Units/Parser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/XObject/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/XObject/Form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/XObject/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparser/pdfparser/src/Smalot/PdfParser/XObject/Image.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treatment.php" beforeDir="false" afterPath="$PROJECT_DIR$/treatment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../task.rarus.copi/task.rarus" beforeDir="false" afterPath="$PROJECT_DIR$/../task.rarus.copi/task.rarus" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../task.rarus1" beforeDir="false" afterPath="$PROJECT_DIR$/../task.rarus1" afterDir="false" />
     </list>
@@ -536,8 +529,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/excel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="66" column="10" selection-start-line="66" selection-end-line="66" selection-end-column="10" />
+            <state relative-caret-position="255">
+              <caret line="66" column="61" lean-forward="true" selection-start-line="57" selection-start-column="2" selection-end-line="66" selection-end-column="61" />
               <folding>
                 <element signature="e#170#209#0#PHP" expanded="true" />
               </folding>
@@ -678,18 +671,17 @@
       <workItem from="1551937943266" duration="21029000" />
       <workItem from="1552285145184" duration="11523000" />
       <workItem from="1552312665415" duration="1954000" />
-      <workItem from="1552380222644" duration="18075000" />
+      <workItem from="1552380222644" duration="18303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116055000" />
+    <option name="totallyTimeSpent" value="116283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20670392" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20670392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -702,7 +694,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -808,8 +800,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/excel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="66" column="10" selection-start-line="66" selection-end-line="66" selection-end-column="10" />
+        <state relative-caret-position="255">
+          <caret line="66" column="61" lean-forward="true" selection-start-line="57" selection-start-column="2" selection-end-line="66" selection-end-column="61" />
           <folding>
             <element signature="e#170#209#0#PHP" expanded="true" />
           </folding>

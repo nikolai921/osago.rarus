@@ -9,8 +9,6 @@ $spreadsheet = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
 //use PhpOffice\PhpSpreadsheet\Helper\Sample;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Style;
-
 
 $sOutFile = 'out.xlsx';
 
@@ -27,47 +25,195 @@ $oSpreadsheet_Out->getProperties()->setCreator('Maarten Balliauw')
 
 // Add some data
 $oSpreadsheet_Out->setActiveSheetIndex(0)
-    ->setCellValue('A1', 'Тип ТС и категория:')
-    ->setCellValue('A2', 'Мощность двигателя:')
-    ->setCellValue('A3', 'Город регистрации:')
-    ->setCellValue('A4', 'Количество водителей:')
-    ->setCellValue('A5', 'Период страховки (для иносранных агентов):')
-    ->setCellValue('A6', 'Коэффициент КБМ:')
-    ->setCellValue('A7', 'Возраст водителя:')
-    ->setCellValue('A8', 'Водительский стаж:')
-    ->setCellValue('A9', 'Является ли иностранным агентом:')
-    ->setCellValue('A10', 'Юр. лицо или физ. лицо:')
-    ->setCellValue('A11', 'Период использования (для резидентов РФ):')
-    ->setCellValue('A12', 'Участие в ДТП:')
-    ->setCellValue('A13', 'Рассчетная премия')
-    ->setCellValue('B1', $_SESSION['post']['type_ts'])
-    ->setCellValue('B2', $_SESSION['post']['engine_power'])
-    ->setCellValue('B3', $_SESSION['post']['city_registration'])
-    ->setCellValue('B4', $_SESSION['post']['number_drivers'])
-    ->setCellValue('B5', $_SESSION['post']['insurance_period'])
-    ->setCellValue('B6', $_SESSION['post']['KBM'])
-    ->setCellValue('B7', $_SESSION['post']['age_drivers'])
-    ->setCellValue('B8', $_SESSION['post']['experience_drivers'])
-    ->setCellValue('B9', $_SESSION['post']['foreigner'])
-    ->setCellValue('B10', $_SESSION['post']['legal_form'])
-    ->setCellValue('B11', $_SESSION['post']['period_use'])
-    ->setCellValue('B12', $_SESSION['post']['violations'])
-    ->setCellValue('B13', $_SESSION['post']['premium'])
+    ->setCellValue('A1', 'Результаты расчета')
+    ->setCellValue('A2', 'Тип ТС и категория:')
+    ->setCellValue('A3', 'Мощность двигателя (лошадиные силы):')
+    ->setCellValue('A4', 'Город регистрации:')
+    ->setCellValue('A5', 'Количество водителей:')
+    ->setCellValue('A6', 'Период страховки (для иностранных агентов):')
+    ->setCellValue('A7', 'Коэффициент КБМ:')
+    ->setCellValue('A8', 'Возраст водителя (период в годовом выражение):')
+    ->setCellValue('A9', 'Водительский стаж (количество полных лет):')
+    ->setCellValue('A10', 'ТС зарегестрировано в иностраном государстве:')
+    ->setCellValue('A11', 'Юридическая форма:')
+    ->setCellValue('A12', 'Период использования (для резидентов РФ):')
+    ->setCellValue('A13', 'Участие в ДТП:')
+    ->setCellValue('A14', 'Рассчетная премия')
+    ->setCellValue('B2', $_SESSION['post']['type_ts'])
+    ->setCellValue('B3', $_SESSION['post']['engine_power'])
+    ->setCellValue('B4', $_SESSION['post']['city_registration'])
+    ->setCellValue('B5', $_SESSION['post']['number_drivers'])
+    ->setCellValue('B6', $_SESSION['post']['insurance_period'])
+    ->setCellValue('B7', $_SESSION['post']['KBM'])
+    ->setCellValue('B8', $_SESSION['post']['age_drivers'])
+    ->setCellValue('B9', $_SESSION['post']['experience_drivers'])
+    ->setCellValue('B10', $_SESSION['post']['foreigner'])
+    ->setCellValue('B11', $_SESSION['post']['legal_form'])
+    ->setCellValue('B12', $_SESSION['post']['period_use'])
+    ->setCellValue('B13', $_SESSION['post']['violations'])
+    ->setCellValue('B14', $_SESSION['post']['premium'])
 ;
 
-//$styleArray = [
-//    'borders' => [
-//        'outline' => [
-//            'borderStyle' => \PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THICK,
-//            'color' => ['argb' => 'FFFF0000'],
-//        ],
-//    ],
-//];
-//
-//$worksheet->getStyle('B2:G8')->applyFromArray($styleArray);
+$oSpreadsheet_Out->getActiveSheet()->getColumnDimension('A')->setWidth(60);
+$oSpreadsheet_Out->getActiveSheet()->getColumnDimension('B')->setWidth(60);
+
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A1:B14')
+    ->getAlignment()->setHorizontal(\PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_LEFT);
+
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A1')
+    ->getBorders()->getTop()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THICK);
+
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A1')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THICK);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A2')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A3')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A4')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A5')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A6')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A7')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A8')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A9')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A10')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A11')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A12')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A13')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A14')
+    ->getBorders()->getLeft()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
 
 
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A2')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A3')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A4')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A5')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A6')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A7')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A8')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A9')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A10')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A11')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A12')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A13')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A14')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
 
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A1')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THICK);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A2')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A3')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A4')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A5')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A6')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A7')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A8')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A9')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A10')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A11')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A12')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A13')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A14')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B1')
+    ->getBorders()->getTop()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THICK);
+
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B1')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THICK);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B2')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B3')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B4')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B5')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B6')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B7')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B8')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B9')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B10')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B11')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B12')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B13')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B14')
+    ->getBorders()->getRight()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B1')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THICK);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B2')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B3')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B4')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B5')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B6')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B7')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B8')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B9')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B10')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B11')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B12')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B13')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('B14')
+    ->getBorders()->getBottom()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN);
+
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A14:B14')
+    ->getFont()->getColor()->setARGB(\PhpOffice\PhpSpreadsheet\Style\Color::COLOR_BLUE);
+$oSpreadsheet_Out->getActiveSheet()->getStyle('A1:B1')
+    ->getFont()->getColor()->setARGB(\PhpOffice\PhpSpreadsheet\Style\Color::COLOR_BLUE);
 
 $oWriter = IOFactory::createWriter($oSpreadsheet_Out, 'Xlsx');
 $oWriter->save($sOutFile);
