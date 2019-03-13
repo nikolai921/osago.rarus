@@ -109,16 +109,14 @@ function radioForm($name_select, $name_data, $name_array, $name_key_array)
 
 function bonus_received($premium)
 {
-
-    $content = '<table>
+    if (empty($_POST)) {
+        $content = "<br>Для расчета укажите параметры в форме ниже </br>";
+    } else {
+        $content = '<table>
 			<tr>
-				<th>Результаты расчета</th>
+				<th>Показатель</th><th>Введенное значение</th>
 			</tr>';
 
-    if (empty($_POST)) {
-        $content .= "<tr>
-				<thead><tr><td>Для расчета укажите параметры в форме ниже </td></tr></thead>";
-    } else {
         $content .= "<tr>
 				<tr><td>Тип ТС и категория:</td><td>{$_POST['type_ts']}</td></tr>
 				<tr><td>Мощность двигателя:</td><td>{$_POST['engine_power']}</td></tr>

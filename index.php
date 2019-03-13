@@ -1,5 +1,8 @@
 <?php
 
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
 session_start();
 
 error_reporting(E_ALL);
@@ -73,16 +76,6 @@ echo $stringHTML;
 $_SESSION['post'] = $_POST;
 $_SESSION['post']['premium'] = $premium;
 
-/*
- * Запись истории отправки данных формы HTML - реализация одного из вариантов логирования
- */
-
-if (!empty($_POST)) {
-    $file = 'logPost.txt';
-    $current = file_get_contents($file);
-    $current .= PHP_EOL . date('d.m.Y  H:i:s', time()) . ' ' . implode(', ', $_POST);
-    file_put_contents($file, $current);
-}
 
 /*
  * Запись файл логов с использованием компонентов monolog.
@@ -92,9 +85,6 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 
 $current = implode(', ', $_SESSION['post']);
-
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
 
 $log = new Logger('name');
 $log->pushHandler(new StreamHandler(__DIR__ . '/logs/test.txt', Logger::INFO));
